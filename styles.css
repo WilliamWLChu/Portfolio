@@ -378,7 +378,7 @@
   }
   
   .rockPaperImg {
-    background: url(./Images/Stocks.png);
+    background: url(./Images/blackjack.png);
     background-size: cover;
     background-position: center;
   }
@@ -390,8 +390,8 @@
   }
   
   .dantatImg {
-    background: url(./images/projectShots/dantatMockup.png);
-    background-position: 0;
+    background: url(./Images/data.png);
+    background-position: center;
     background-size: cover;
   }
   
