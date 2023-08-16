@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script? src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js">
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <title>William's portfolio website</title>
+  
+</head>
+<!-- TODO 
+  Email Btn: Action
+  Add github linkedIn btns
+  Check all text
+  Reponsive - (done - 475px)
+-->
+
+<body>
+  <div class="loaderContainer" id="loaderContainer">
+    <div class="feeder">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <Header id="header">
+    <nav id="navbar" class="navbar">
+      <div class="navMenu" id="navMenu">
+        <a id="navAbout" class="navMenuLink underline">About Me</a>
+        <a id="navWork" class="navMenuLink underline">My Work</a>
+        <a id="navToolkit" class="navMenuLink underline">My Toolkit</a>
+        <a id="navContact" class="navMenuLink underline">Contact</a>
+      </div>
+
+      <div class="menuBtn" id="menuBtn">
+        <div class="menuBurger"></div>
+      </div>
+    </nav>
+    <h2 class="introTitle">Hello,</h2>
+    <h1 class="title">I'm William Chu</h1>
+    <h2 class="subtitle">A Data Analyst</h2>
+    <a target="_blank" href="#about"><img src="/Images/chevron.svg" alt="chevron down" class="chevDown">
+  </a>
+    <img src="./Images/image1.svg" alt="image of a monitor and a cat on top" class="catImage">
+    <div class="bgContainer">
+      <div class="bgLines"></div>
+      <div class="bgCircle circ1"></div>
+      <div class="bgCircle circ2"></div>
+      <div class="bgCircle circ3"></div>
+      <div class="bgCircle circ4"></div>
+      <div class="bgCircle circ5"></div>
+    </div>
+  </Header>
+  <section class="about " id="about">
+    <h2 class="sectionTitle ">A bit about me</h2>
+    <p class="sectionText hiddenRight">
+      <br>
+      <br>
+      Since I was young, I have always enjoyed to solve puzzles. 
+      So that’s how I look at big data sets: to me it is one big puzzle I want to solve. 
+      Finding patterns nobody else sees is the challenge to me.
+      <br> 
+      <br>
+      As a Data Analyst, I specialise in bringing meaningful data insights
+      on existing problems. My goal is to provide business insights and
+      help people understand problems through numbers. 
+      <br> 
+      <br>
+      With an MEng in
+      Engineering and over 2 years of Data Analyst experience, I have
+      learnt to utilise my Engineering and Data Analytics skills to solve
+      real life problems and make processes more efficient.
+      <br>
+      <br>
+      On this website you will find some of my previous work and tools i use. 
+
+    </p>
+    <div class="aboutAccents">
+    </div>
+
+  <!-- PROJECT -->
+  </section>
+  <section class="work " id="work">
+    <h2 class="sectionTitle">Some of my work</h2>
+    <p class="sectionText">Click on any project to learn more!</p>
+    <div class="imageContainer">
+      <div class="imgSmall workImg rockPaperImg " id="project1">
+        <div class="projectInfo hide ">
+          <span class="cross">X</span>
+          <h2 class="projectTitle">Stock Prediction</h2>
+          <p class="projectText">This is a code snippet of the stock predition tool using LSTM neural nodes to train models to predict future stocks.</p>
+          <div class="langContainer">
+            <span class="language">Python</span>
+            <span class="language">MatplotLib</span>
+            <span class="language">Tensorflow</span>
+          </div>
+          <div class="projectBtnContainer">
+            <button id="viewLive1">View Work</button>
+            <button id="github1">Github</button>
+          </div>
+        </div>
+      </div>
+      <div class="imgBig workImg dantatImg" id="project2">
+        <div class="projectInfo hide ">
+          <span class="cross">X</span>
+          <h2 class="projectTitle">Data Analytics for Radio Company</h2>
+          <p class="projectText">A freelance project providing a radio station business insights and suggestions based on the data they found.</p>
+          <div class="langContainer" id="bbContainer">
+            <span class="language">SQL</span>
+            <span class="language">PowerBI</span>
+          </div>
+          <div class="projectBtnContainer">
+            <button id="viewLive2" disabled>View Live</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="imgBig workImg todoImg " id="project3">
+        <div class="projectInfo hide ">
+          <span class="cross">X</span>
+          <h2 class="projectTitle">BlackJack Game App</h2>
+          <p class="projectText">An application, with a light and dark mode switch, allows users to input tasks and the
+            ability to check them off when
+            completed. Using vanilla Javascript the application allows users to filter the list, and remove all
+            completed tasks was
+            added.</p>
+          <div class="langContainer">
+            <span class="language">HTML</span>
+            <span class="language">CSS</span>
+            <span class="language">JS</span>
+          </div>
+          <div class="projectBtnContainer">
+            <button id="viewLive3">View Live</button>
+            <button id="github3">Github</button>
+          </div>
+        </div>
+      </div>
+      <div class="imgSmall workImg tipCalcImg" id="project4">
+        <div class="projectInfo hide ">
+          <span class="cross">X</span>
+          <h2 class="projectTitle">Tip Calculator</h2>
+          <p class="projectText">The design was taken from frontendmentor, The project is a calculator which allows
+            users to work out the amount they
+            need to pay when splitting the bill. This project allowed me to test recreating a given design, and the
+            javascript logic
+            to calculate variables and display it in the html dynamically.</p>
+          <div class="langContainer">
+            <span class="language">HTML</span>
+            <span class="language">CSS</span>
+            <span class="language">JS</span>
+          </div>
+          <div class="projectBtnContainer">
+            <button id="viewLive4">View Live</button>
+            <button id="github4">Github</button>
+          </div>
+        </div>
+      </div>
+      <div class="workAccents">
+        <div class="diagonalContainer">
+          <hr class="diag diag1">
+          <hr class="diag diag2">
+          <hr class="diag diag3">
+        </div>
+        <div class="triangleContainer">
+
+          <div class="triangleRow">
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+
+          </div>
+          <div class="triangleRow">
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+
+          </div>
+          <div class="triangleRow">
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+          </div>
+          <div class="triangleRow">
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+            <span class="triangle"></span>
+          </div>
+        </div>
+
+<!-- Skills Section-->
+
+      </div>
+    </div>
+  </section>
+  <section class="toolkit hidden" id="toolkit">
+    <div class="toolkitContainer">
+      <h1 class="sectionTitle">My Toolkit</h1>
+      <div class="toolkits">
+        <div class="iconContainer" id="toolkit5">
+          <img src="./images/powerbi.svg" alt="PowerBI logo" class="icon">
+          <span>PowerBI</span>
+        </div>
+        <div class="iconContainer" id="toolkit7">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="icon" alt="HTML Logo">
+          <span>HTML</span>
+        </div>
+        <div class="iconContainer" id="toolkit7">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="icon" alt="HTML Logo">
+          <span>CSS</span>
+        </div>
+        <div class="iconContainer" id="toolkit7">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="icon" alt="HTML Logo">
+          <span>Javascript</span>
+        </div>  
+        <div class="iconContainer" id="toolkit7">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="icon" alt="HTML Logo">
+          <span>PostGreSQL</span>
+        </div>
+        <div class="iconContainer" id="toolkit8">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="icon" alt="HTML Logo">
+          <span>Python</span>
+        </div>
+        <div class="iconContainer" id="toolkit6">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="icon" alt="HTML Logo">
+          <span>Git/Github</span>
+        </div>
+        <div class="iconContainer" id="toolkit6">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" class="icon" alt="HTML Logo">
+            <span>Matlab</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact hidden" id="contact">
+    <div class="contactText">
+      <h1 class="sectionTitle">Let's chat!</h1>
+      <p class="sectionText contactText">I'm always eager for new challenges and opportunities to grow as a developer.
+        If you have a job or
+        project in mind, please
+        don't hesitate to reach out to me using the contact form on the right or via social media and we can chat about
+        it. <br>
+        I would love to hear more about
+        what
+        you're working on and discuss how we can collaborate to bring your vision to life. Let's start a conversation
+        today and
+        see where it takes us!
+      </p>
+      <div class="logoContainer">
+        <a target="_blank" href="https://github.com/WilliamWLChu"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="contactIcon"
+            alt="Github logo">
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/williamchu1008/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" class="contactIcon"
+          alt="linkedIn logo">
+      </a>
+        
+      </div>
+    </div>
+
+    <form action="https://formsubmit.co/Williamchu1008@gmail.com" method="POST" class="contactForm"
+      target="_blank">
+      <h1 class="sectionTitle">Contact Form</h1>
+      <input type="hidden" name="_next" value="https://WilliamWLChu.github.io/portfolio/pages/thankYou.html">
+      <input type="text" name="name" id="name" placeholder="name" autocomplete="off" required />
+      <input type="email" name="email" id="email" placeholder="email" required />
+      <input type="text" name="_honey" style="display:none">
+      <textarea name="message" id="message" placeholder="message" required=""></textarea>
+      <input type="hidden" name="_subject" value="From portfolio contact form">
+      <div class="submitBtnContainer">
+        <button class="btnEmail jello-horizontal" type="submit">Send message</button>
+      </div>
+    </form>
+    <button class="dot" id="dot">
+      <img src="./images/arrowup.svg" alt="arrow up button" class="arrowUp" id="arrowUp">
+    </button>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
