@@ -203,25 +203,22 @@ function goToUrl(event) {
       window.open("https://williamwlchu.github.io/BlackJack/", "_blank");
       break;
     case "viewLive2":
-      window.open("", "_blank");
+      window.open(
+        "https://github.com/WilliamWLChu/Data-Study/blob/main/Sales%20Report.pdf",
+        "_blank"
+      );
       break;
     case "viewLive3":
       window.open(
-        "https://robyhho.github.io/showCaseProjects/todo-app-main/index.html",
+        "https://github.com/WilliamWLChu/StockPricePredictor/blob/main/Stock_Price_Prediction_%26Forecasting_.ipynb",
         "_blank"
       );
       break;
     case "viewLive4":
-      window.open(
-        "https://robyhho.github.io/showCaseProjects/tip-calculator/index.html",
-        "_blank"
-      );
+      window.open("https://williamwlchu.github.io/tipcalculator/", "_blank");
       break;
     case "github1":
-      window.open(
-        "https://github.com/robyhho/showCaseProjects/tree/master/rock-paper-scissors",
-        "_blank"
-      );
+      window.open("https://github.com/WilliamWLChu/BlackJack", "_blank");
       break;
     case "github3":
       window.open(
@@ -230,14 +227,7 @@ function goToUrl(event) {
       );
       break;
     case "github4":
-      window.open(
-        "https://github.com/robyhho/showCaseProjects/tree/master/tip-calculator",
-        "_blank"
-      );
+      window.open("https://github.com/WilliamWLChu/tipcalculator", "_blank");
       break;
   }
 }
-
-// function goToEmail(event) {
-//   href = "mailto:someone@yoursite.com";
-//   }

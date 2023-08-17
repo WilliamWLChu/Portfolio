@@ -396,7 +396,7 @@
   }
   
   .tipCalcImg {
-    background: url(./images/projectShots/tipCalculatorMockup.png);
+    background: url(./Images/tipCalculatorMockup.jpg);
     background-size: cover;
   }
   
@@ -477,14 +477,9 @@
   }
   
   #viewLive2 {
-    opacity: 0;
+    opacity: 1;
   }
   
-  #viewLive2:hover {
-    cursor: default;
-    background-color: var(--light-green);
-    color: white;
-  }
   
   /* Work Background styles */
   
