@@ -225,7 +225,7 @@ function goToUrl(event) {
       break;
     case "github3":
       window.open(
-        "https://github.com/robyhho/showCaseProjects/tree/master/todo-app-main",
+        "https://github.com/WilliamWLChu/StockPricePredictor",
         "_blank"
       );
       break;
